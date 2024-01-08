@@ -1,0 +1,514 @@
+.main-banner {
+  background-image: url(../images/QuoteForm/banneroverlay.png), url(../images/QuoteForm/banner-bg.png);
+  height: 390px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+
+.banner-title h1 {
+  font-size: 59px;
+  color: var(--nero);
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.banner-title {
+  height: 390px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-quotation {
+  max-width: 900px;
+  text-align: center;
+  margin: auto;
+}
+
+
+.about-section {
+  padding: 86px 0px 50px;
+}
+
+.about-quotation h2 {
+  font-size: 30px;
+  color: #141414;
+  margin-bottom: 70px;
+}
+
+.about-quotation p {
+  font-size: 14px;
+  line-height: 30px;
+  text-align: left;
+}
+
+
+
+/* quotation form */
+.quotation-form {
+  padding: 80px 0px 110px;
+  background-color: #FFFEED;
+}
+
+.quote-form {
+  background-color: #fff;
+  padding-right: 30px;
+  margin-bottom: 100px;
+}
+
+.field-label {
+  background-color: #FEE5C6;
+  font-size: 15px;
+  padding: 17px 30px;
+  margin-right: 40px;
+  width: 25%;
+
+}
+
+.select-field {
+  border: 1px solid #9B9B9B;
+  width: 357px;
+  height: 45px;
+  padding: 0px 15px;
+}
+
+.prefecture-field {
+  width: 68%;
+  height: 45px;
+  padding: 0px 15px;
+}
+
+.input-field {
+  width: 70%;
+  border: 1px solid #9B9B9B;
+  height: 45px;
+  padding: 0px 15px;
+}
+
+.postal-field {
+  width: 32%;
+  height: 45px;
+  display: flex;
+  padding: 0px 15px;
+}
+
+.inline-label {
+  margin-right: 20px;
+}
+
+.form-field {
+  display: flex;
+  width: 100%;
+}
+
+.quote-h {
+  margin-bottom: 15px;
+}
+
+.radio-label {
+  margin-bottom: 0px;
+  margin-left: 7px;
+  margin-right: 7px;
+  display: flex;
+  align-items: center;
+}
+
+.address-field-group {
+  display: flex;
+
+}
+
+.postal-fields {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.field-grouped {
+  width: 70%;
+}
+
+.consideration-postal-fields {
+  display: flex;
+  align-items: center;
+}
+
+.field-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 70%;
+}
+
+.radio-text-field {
+  width: 230px;
+  height: 41px;
+  padding: 0px 15px;
+  margin-top: 10px;
+}
+
+label {
+  font-size: 15px;
+}
+
+.date-time-field {
+  border: 1px solid #9B9B9B;
+  width: 100%;
+  height: 45px;
+  font-size: 16px;
+  padding: 0px 15px;
+}
+
+.date-time-filed-group {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.check-box-field {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.renovation-time-field {
+  display: flex;
+  width: 70%;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.content-renovation {
+  display: flex;
+  width: 69%;
+}
+
+.content-renovation-field {
+  width: 50%;
+  height: 45px;
+  padding: 0px 15px;
+  margin-left: 15px;
+}
+
+.custom-label {
+  background-color: #FEE5C6;
+  font-size: 15px;
+  padding: 17px 30px;
+  margin-right: 40px;
+  width: 100%;
+  height: 100%;
+}
+
+.content-field-group {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 18px;
+  align-items: center;
+}
+
+.custom-col-3 {
+  width: 25%;
+  margin-right: 40px;
+}
+
+.custom-col-9 {
+  width: 68%;
+}
+
+.custom-row {
+  display: flex;
+  width: 100%;
+}
+
+.submit-btn {
+  width: 358px;
+  height: 55px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  border-radius: 4px;
+  background-color: #F49122;
+  color: #fff;
+  border: 1px solid #F49122;
+}
+
+.sub-btn {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  padding: 0px 15px;
+}
+.sub-btn > .info-text{
+  font-size: 15px;
+}
+button,
+input,
+optgroup,
+select,
+textarea {
+  border: 1px solid #9B9B9B;
+  font-size: 15px;
+  color: #141414;
+}
+::placeholder{
+  font-size: 15px;
+  color: #141414;
+}
+.textarea-field {
+  width: 100%;
+  padding: 10px 15px;
+}
+
+.text-field {
+  width: 70%;
+}
+
+.content-renovation li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.planned-grouped-field {
+  display: flex;
+  width: 70%;
+  align-items: center;
+}
+
+.other-field {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.visit-group-field {
+  display: flex;
+  width: 70%;
+  align-items: center;
+}
+
+.date-field {
+  width: 50%;
+}
+
+.content-renovation .order-first {
+  width: 33%;
+}
+
+.content-renovation .order-second {
+  width: 77%;
+}
+
+.checkbox-label {
+  margin-left: 7px;
+  margin-bottom: 0px;
+}
+
+.checkboox-field {
+  width: 18px;
+  height: 18px;
+  border-radius: 0px;
+}
+
+.radio-field {
+  width: 18px;
+  height: 18px;
+}
+
+.form-control-radio {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  .about-section {
+    padding: 39px 0px 50px;
+  }
+
+  .sub-btn > .info-text{
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+  .about-quotation h2 {
+    margin-bottom: 33px;
+    font-size: 20px;
+  }
+
+  .banner-title,
+  .main-banner,
+  .introduce-content {
+    height: 119px;
+  }
+
+  .banner-title h1 {
+    font-size: 25px;
+  }
+
+  .quotation-form .container {
+    padding: 0px;
+  }
+
+  .quotation-form {
+    background-color: #fff;
+  }
+
+  .quote-form {
+    background-color: #FFFEED;
+    padding: 0px 15px 0px;
+    margin-bottom: 56 px;
+  }
+
+  .field-label,
+  .custom-label {
+    background-color: transparent;
+    width: 100%;
+    padding: 0px;
+    margin-right: 0px;
+  }
+
+  .address-field-group {
+    margin-top: 10px;
+  }
+
+  .form-field,
+  .address-field-group {
+    flex-direction: column;
+    align-items: flex-start !important;
+  }
+
+  .select-field,
+  .input-field {
+    width: 100%;
+  }
+
+  .field-grouped {
+    width: 100%;
+  }
+
+  .field-grouped .form-field {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+  }
+
+  .field-grouped .prefecture-field {
+    width: 80%;
+  }
+
+  .planned-grouped-field {
+    width: 100%;
+    border-bottom: 1px solid #707070;
+    padding-bottom: 27px;
+    margin-bottom: 23px;
+  }
+
+  .mbl-none {
+    display: none;
+  }
+
+  .field-grouped .select-field {
+    width: 70%;
+  }
+
+  .field-wrap,
+  .purpose-inquiry,
+  .time-renovation,
+  .address-field-group,
+  .visit-group-field,
+  .visit-date-grouped,
+  .custom-row {
+    width: 100%;
+    border-bottom: 1px solid #707070;
+    padding-bottom: 27px;
+    margin-bottom: 23px;
+  }
+
+  .renovation-time-field {
+    width: 100%;
+  }
+
+  .content-renovation {
+    width: 100%;
+  }
+
+  .date-time-filed-group {
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .date-field,
+  .date-time-field {
+    width: 100%;
+  }
+
+  .custom-row {
+    flex-direction: column;
+  }
+
+  .custom-col-3,
+  .custom-col-9 {
+    width: 100%;
+  }
+
+  .content-field-group .radio-text-field {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .submit-btn {
+    width: 100%;
+  }
+
+  .text-field {
+    width: 100%;
+  }
+
+  .quote-h {
+    background-color: #FFFEED;
+    margin-bottom: 0px;
+    padding: 24px 15px 21px;
+  }
+
+  .content-renovation .order-first,
+  .content-renovation .order-second {
+    width: 50%;
+  }
+
+  .other-field {
+    display: none;
+  }
+}
+
+.about-section p.red {
+  display: none;
+}
+
+@media (max-width:576px) {
+  .about-quotation span {
+    display: none;
+}
+  .about-section p.red {
+    font-size: 15px;
+    color: #FF3636;
+    display: block;
+  }
+  .about-section{
+  padding: 10px 15px;
+  }
+  .about-quotation{
+    padding: 39px 0px 50px;
+    }
+    .quotation-form{
+      padding: 0px 0px 110px;
+    }
+}

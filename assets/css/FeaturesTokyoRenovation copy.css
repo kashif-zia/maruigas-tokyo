@@ -1,0 +1,271 @@
+.features-tokyo-renovation-page {}
+
+.features-tokyo-renovation-page .oven-maker-about p {
+    color: #141414;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 2;
+    padding: 0 180px;
+    text-align: center;
+}
+
+
+
+.features-tokyo-renovation-page .section-overn-maker {
+    position: relative;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.features-tokyo-renovation-page .section-overn-maker img.left {
+    position: absolute;
+    left: 30px;
+    bottom: -30px;
+    /* bottom: 0px; */
+    z-index: 1;
+}
+
+.features-tokyo-renovation-page .section-overn-maker img.right {
+    position: absolute;
+    right: 0;
+    bottom: -30px;
+    z-index: 3;
+}
+
+
+.section-food-service {
+    background-image: url(/assets/images/introduce/maskGroup41.png);
+    width: 100%;
+    background-position: right;
+    background-repeat: repeat;
+    padding: 109px 21px 100px 23px;
+    background-color: #FFE7C9;
+    z-index: 2;
+    position: relative;
+}
+
+
+.service-right-outer-div {
+    background: #FFFFFF;
+    min-height: 449px;
+    padding: 57px 60px 90px 174px;
+    /* width: 746px; */
+    margin-left: -65px;
+    z-index: -1;
+    border-radius: 0 0 8px 8px;
+}
+.service-right-outer-div ul{
+    padding: 20px 0;
+}
+
+.service-left-outer-div {
+    background: #FFFFFF;
+    height: 449px;
+    padding: 57px 100px 90px 77px;
+    /* width: 746px; */
+    margin-right: -65px;
+    z-index: -1;
+}
+
+
+.service-rigth-content {
+    margin-top: 211px;
+}
+
+.quality-left-img img,
+.quality-right-img img {
+    width: 100%;
+}
+
+/* 
+.servicedetail p {
+    width: 100%;
+    line-height: 2.34;
+    height: 3.6em;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    font-size: 1.4rem;
+} */
+.servicenumber h2 {
+    font-size: 70px;
+    color: #F49122;
+}
+
+.intro-col-left {
+    z-index: 3;
+}
+
+.intro-rigth-left {
+    z-index: 0;
+    width: 746px;
+    max-width: 100%;
+    margin-left: -65px;
+}
+
+.servicetitle p {
+    font-size: 30px;
+    color: #141414;
+    line-height: 40px;
+    font-weight: 600;
+}
+
+.servicedetail p {
+    font-size: 1.4rem;
+    width: 100%;
+    /* line-height: 1.2em; */
+    /* height: 3.6em; */
+    /* overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3; */
+    line-height: 2.3;
+}
+
+.features-tokyo-renovation-page .servicedetail li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.features-tokyo-renovation-page .servicedetail .question-box {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: var(--carrot-orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.features-tokyo-renovation-page .servicedetail li .text {
+    font-size: 1.9rem;
+    width: 70%;
+}
+
+.features-tokyo-renovation-page .servicedetail li i {
+    font-size: 2rem;
+    color: var(--white);
+}
+
+.features-tokyo-renovation-page .customer-voice-section {
+    min-height: 700px;
+    background-color: var(--ivory);
+    padding: 50px 0;
+}
+
+.features-tokyo-renovation-page .customer-voice-section .pick-up-content {
+    padding: 0px 40px;
+    border: 15px solid var(--bisque);
+    background-color: var(--white);
+    min-height: 294px;
+}
+
+.features-tokyo-renovation-page .customer-voice-section .pick-up-content h3 {
+    font-size: 2rem;
+    color: var(--persimmon);
+    padding: 30px 0 20px 0;
+}
+
+.features-tokyo-renovation-page .customer-voice-section h2 {
+    padding: 50px 0;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.features-tokyo-renovation-page .pick-up-content p {
+    font-size: 1.4rem;
+    line-height: 2;
+}
+
+.features-tokyo-renovation-page .customer-voice-section h2 {
+    color: var(--nero-dark);
+}
+
+@media (max-width:800px) {
+    .features-tokyo-renovation-page .oven-maker-about p {
+        color: #141414;
+        padding: 0 30px;
+        text-align: center;
+    }
+
+    .features-tokyo-renovation-page .section-overn-maker img.left,
+    .features-tokyo-renovation-page .section-overn-maker img.right {
+        height: 250px;
+    }
+
+    .section-food-service {
+        padding: 29px 14px 100px 14px;
+    }
+
+    .service-rigth-content {
+        margin-top: 0px;
+    }
+
+    .reverse-row {
+        flex-direction: column-reverse;
+    }
+
+    .service-right-outer-div {
+        padding: 31px 15px;
+        width: 100%;
+        margin-right: 0px;
+        min-height: auto;
+    }
+    .service-right-outer-div{
+        margin-left: 0;
+    }
+
+    .service-left-outer-div {
+        padding: 21px 15px;
+        width: 100%;
+        margin-left: 0px;
+        height: auto;
+    }
+
+    .servicetitle p {
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width:500px) {
+    html{
+        font-size: 50%;
+    }
+    .features-tokyo-renovation-page .section-overn-maker {
+        min-height: 500px;
+        align-items: flex-start;
+    }
+    .features-tokyo-renovation-page .section-overn-maker img.left{
+        left: 0px;
+    }
+
+    .features-tokyo-renovation-page .section-overn-maker img.left,
+    .features-tokyo-renovation-page .section-overn-maker img.right {
+        height: 180px;
+    }
+    .servicenumber h2 {
+        font-size: 38px;
+    }
+    .features-tokyo-renovation-page .servicedetail li .text{
+        font-size: 14px;
+    }
+    .features-tokyo-renovation-page .servicedetail .question-box{
+        width: 24px;
+        height: 26px;
+    }
+    .features-tokyo-renovation-page .servicedetail li i{
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 768px)
+{
+    .oven-maker-title {
+    margin: 31px 0;
+}
+}

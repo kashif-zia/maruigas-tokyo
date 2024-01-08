@@ -1,0 +1,686 @@
+.construction-case-detail-section {
+    padding: 50px 0px 0px 0px;
+}
+
+.about-after-container {
+    margin-bottom: 242px;
+    margin-top: 86px;
+}
+
+.construction-case-detail-section h2 {
+    text-align: center;
+    font-size: 3.2rem;
+    color: var(--deep-lilac);
+}
+
+.construction-case-detail-section .part-of-time-section h2,
+.construction-case-detail-section .customer-voice-section h2 {
+    color: var(--nero-dark);
+}
+
+.construction-case-detail-section h3 {
+    text-align: center;
+    font-size: 3rem;
+    color: var(--nero-dark);
+    padding: 40px 0;
+}
+
+.company-name h3 {
+    padding: 0;
+    font-size: 30px;
+    color: #FFFFFF;
+    line-height: 26px;
+    text-align: left;
+    font-weight: bold;
+    margin: 15px 0px;
+}
+
+.construction-case-detail-section .desktop {
+    display: block;
+
+}
+
+.construction-case-detail-section .mobile {
+    display: none;
+
+}
+
+.construction-case-detail-section hr {
+    display: inline-block;
+    width: 100%;
+    height: 5px;
+    background: var(--deep-lilac);
+    border-radius: 8px;
+}
+
+
+.construction-case-detail-section .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.construction-case-detail-section .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+.construction-case-detail-section .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.construction-case-detail-section .swiper {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.construction-case-detail-section .swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+
+.construction-case-detail-section .mySwiper2 {
+    height: 80%;
+    /* width: 100%; */
+    height: 537px;
+}
+
+.construction-case-detail-section .mySwiper {
+    /* height: 20%; */
+    height: 171px;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+.construction-case-detail-section .mySwiper .swiper-slide {
+    width: 25%;
+    height: 100%;
+    opacity: 0.4;
+}
+
+.construction-case-detail-section .mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+}
+
+.construction-case-detail-section .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.construction-case-detail-section .swiper-section p {
+    font-size: 1.4rem;
+    padding: 40px 0;
+    text-align: start;
+    line-height: 1.8;
+}
+
+.construction-case-detail-section .before-section {
+    overflow-x: hidden;
+    display: flex;
+    padding: 120px 0 50px 0;
+    align-items: flex-end;
+}
+@media (max-width:1399px) {
+    .construction-case-detail-section .before-section {
+        overflow-x: scroll;
+    }
+}
+/* .construction-case-detail-section .before-section::-webkit-scrollbar {
+    display: none;
+} */
+
+/* width */
+.construction-case-detail-section .before-section::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+  }
+  
+  /* Track */
+  .construction-case-detail-section .before-section::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  .construction-case-detail-section .before-section::-webkit-scrollbar-thumb {
+    background: var(--carrot-orange);
+    border-radius: 10px;
+  }
+
+
+.construction-case-detail-section .before-section .before {
+    text-align: center;
+    width: 100%;
+    font-size: 63px;
+    font-weight: 400;
+    color: #C69156;
+    padding: 30px 0 0 0;
+}
+
+.construction-case-detail-section .before-section .img-wrapper {
+    height: 100%;
+    position: relative;
+    bottom: 70px;
+}
+
+
+.construction-case-detail-section .content {
+    height: 100%;
+    background-color: var(--ivory);
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    position: relative;
+    left: -100px;
+}
+
+.construction-case-detail-section .before-section .content {
+    background-color: var(--ivory);
+    padding: 50px 50px 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    position: relative;
+    width: 746px;
+    height: 471px;
+    
+}
+
+.construction-case-detail-section .before-section .flex-container {
+    display: flex;
+    width: 1440px;
+    margin: auto;
+}
+
+.construction-case-detail-section .before-section img.one {
+    width: 429px;
+    height: 424px;
+}
+
+.construction-case-detail-section .before-section img.two {
+    width: 319px;
+    height: 425px;
+}
+
+.construction-case-detail-section .before-section .content h3 {
+    max-width: 500px;
+    font-size: 26px;
+    margin: auto;
+    font-weight: 400;
+    color: #383737;
+    line-height: 1.4;
+}
+
+.construction-case-detail-section .before-section .content p {
+    color: #141414;
+    font-weight: normal;
+}
+
+.construction-case-detail-section .before-section .img-wrapper {
+    width: 700px;
+    left: 25px;
+}
+
+.construction-case-detail-section .before-section .content {
+    width: 700px;
+    left: -25px;
+}
+
+
+@media (max-width:600px) {
+    .construction-case-detail-section .before-section .flex-container {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .construction-case-detail-section .before-section .before {
+        font-size: 33px;
+    }
+
+    .construction-case-detail-section .before-section .img-wrapper {
+        justify-content: center;
+        width: 100%;
+        bottom: 0;
+    }
+
+    .construction-case-detail-section .before-section .img-wrapper .d-flex {
+        gap: 10px;
+    }
+
+    .construction-case-detail-section .before-section img.one {
+        width: 57%;
+        height: 222px;
+        margin: 0 !important;
+    }
+
+    .construction-case-detail-section .before-section img.two {
+        width: 40%;
+        height: 223px;
+        margin: 0 !important;
+
+    }
+
+    .construction-case-detail-section .before-section .content {
+        width: 100%;
+        padding: 50px 20px 0 20px;
+        left: 0;
+    }
+    .construction-case-detail-section .before-section .img-wrapper {
+        left: 0;
+        padding: 0 10px;
+    }
+
+    .construction-case-detail-section .before-section .img-wrapper>div {
+        width: 100%;
+    }
+
+    .construction-case-detail-section .before-section {
+        background-color: var(--ivory);
+
+        padding: 20px 0 70px 0;
+    }
+
+    .construction-case-detail-section .content {
+        padding: 50px 0px;
+        position: static;
+        left: 0;
+    }
+    .construction-case-detail-section .before-section {
+        overflow: hidden;
+    }
+    .construction-case-detail-section .mobile {
+        display: block;
+
+    }
+
+    .construction-case-detail-section .desktop {
+        display: none;
+
+    }
+
+}
+
+
+
+.construction-case-detail-section .about-after-follow-section .content {
+    background-color: transparent;
+}
+
+.construction-case-detail-section .content button {
+    width: 125px;
+    height: 37px;
+    background-color: var(--carrot-orange);
+    border: none;
+    color: var(--white);
+    border-radius: 4px;
+    font-size: 2.5rem;
+    color: var(--white);
+}
+
+.construction-case-detail-section .content h3 {
+    max-width: 500px;
+    font-size: 26px;
+    margin: auto;
+}
+
+.construction-case-detail-section .content p {
+    padding: 0px;
+    line-height: 2;
+    max-width: 600px;
+    margin: auto;
+    font-size: 14px;
+}
+
+
+
+
+.construction-case-detail-section .renovation-detail-section {
+    min-height: 665px;
+    padding: 50px 0;
+    background-color: var(--ivory);
+}
+
+.construction-case-detail-section .renovation-detail-section h4 {
+    font-size: 2.1rem;
+    text-align: center;
+}
+
+.construction-case-detail-section .renovation-detail-table .row {
+    padding: 20px 0;
+    border-top: 1px solid var(--nero-dark);
+}
+
+.construction-case-detail-section .renovation-detail-table .inner-text {
+    padding: 20px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.construction-case-detail-section .renovation-detail-table span {
+    font-size: 2.1rem;
+}
+
+.border-right {
+    border-right: 1px solid var(--dim-gray) !important;
+}
+
+
+.construction-case-detail-section h2 {
+    padding: 50px 0;
+    text-align: center;
+    font-size: 3rem;
+}
+
+/* .construction-case-detail-section img {
+    width: 100%;
+} */
+
+
+.construction-case-detail-section .part-of-time-section {
+    background: var(--bisque);
+    min-height: 628px;
+    padding: 30px 0 80px 0;
+}
+
+.construction-case-detail-section .part-of-time-content img {
+    height: 305px;
+    background-color: var(--pumpkin);
+}
+
+.construction-case-detail-section .part-of-time-content p {
+    padding: 20px 0;
+    font-size: 1.5rem;
+}
+
+.construction-case-detail-section .pick-up-section {
+    min-height: 650px;
+    padding: 100px 0;
+    background-image: url('../images/ContsructionCaseDetail/Mask Group 22@2x.png');
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+
+.construction-case-detail-section .pick-up-section .wrapper {
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 650px;
+
+}
+
+.construction-case-detail-section .pick-up-section .pick-up-content {
+    width: 100%;
+    min-height: 356px;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    /* padding: 0 70px; */
+    border-radius: 5px;
+
+}
+
+.construction-case-detail-section .pick-up-section .pick-up-content button {
+    width: 280px;
+    height: 65px;
+    background-color: var(--persimmon);
+    border-radius: 37px;
+    color: var(--white);
+    position: absolute;
+    top: -50px;
+    font-size: 5.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+}
+
+.construction-case-detail-section .pick-up-content h3 {
+    font-size: 20px;
+    color: var(--persimmon);
+}
+
+.construction-case-detail-section .pick-up-content p {
+    font-size: 1.4rem;
+}
+
+.construction-case-detail-section .about-after-follow-section {
+    min-height: 566px;
+    background-color: #F2F3F4;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.construction-case-detail-section .about-after-follow-section .container {
+    max-width: 1250px;
+}
+
+.construction-case-detail-section .about-after-follow-section .baba {
+    position: absolute;
+    right: 3%;
+    bottom: 20px;
+    width: 20%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.construction-case-detail-section .about-after-follow-section .img-wrapper {
+    height: 100%;
+}
+
+.construction-case-detail-section .about-after-follow-section img {
+    width: 100%;
+    height: 100%;
+    padding: 0 10px;
+}
+
+.construction-case-detail-section .about-after-follow-section .content {
+    padding: 0 0px;
+    left: 0;
+    display: block;
+}
+
+.construction-case-detail-section .about-after-follow-section .content p {
+    padding: 0 0px;
+    left: 0;
+    display: block;
+}
+
+.construction-case-detail-section .about-after-follow-section h2 {
+    text-align: start;
+    font-size: 3rem;
+    color: black;
+    padding: 30px 0;
+}
+
+.construction-case-detail-section .about-after-follow-section p {
+    line-height: 2;
+    font-size: 14px;
+}
+
+.construction-case-detail-section .customer-voice-section {
+    min-height: 700px;
+    background-color: var(--ivory);
+    padding: 50px 0;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    background-image: url(../images/QuoteForm/banneroverlay.png)
+}
+
+.construction-case-detail-section .customer-voice-section .pick-up-content {
+    padding: 50px;
+    border: 15px solid var(--bisque);
+    background-color: var(--white);
+}
+
+.construction-case-detail-section .return-btn-section {
+    padding: 100px 0;
+}
+
+.construction-case-detail-section .return-btn-section button {
+    width: 100%;
+    height: 76px;
+    background-color: var(--carrot-orange);
+    color: var(--white);
+    font-size: 2.5rem;
+    border: none;
+    outline: none;
+}
+
+.construction-case-detail-section .section-contact-us h2 {
+    font-size: 18px;
+    color: #141414;
+    font-weight: bold;
+    padding: 0;
+}
+
+.construction-case-detail-section .contact-number h3 {
+    font-size: 49px;
+    letter-spacing: 0.98px;
+    color: #F75914;
+    opacity: 1;
+    font-weight: 500;
+    padding: 0;
+}
+
+.construction-case-detail-section .inquiry-solutions p {
+    line-height: 2;
+    text-align: start;
+    font-size: 1.4rem;
+}
+
+@media only screen and (max-width:768px) {
+    
+
+    .company-name h3 {
+        text-align: center;
+    }
+}
+
+@media (max-width:400px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+@media (max-width:1000px) {
+    .border-right {
+        border: none !important;
+    }
+
+    .construction-case-detail-section .before-section img {
+        height: 228px;
+    }
+}
+
+@media (max-width:1300px) {
+    .construction-case-detail-section .content {
+        left: 0px;
+    }
+}
+
+@media (max-width:768px) {
+
+    /* .construction-case-detail-section .about-after-follow-section .baba {
+
+        display: none;
+    } */
+    .construction-case-detail-section .about-after-follow-section .baba {
+        width: 28%;
+        height: auto;
+    }
+    .construction-case-detail-section .customer-voice-section{
+        background-image: none;
+    }
+}
+
+@media (max-width:500px) {
+    html {
+        font-size: 55%;
+    }
+
+    .border-right {
+        border: none !important;
+    }
+
+    .construction-case-detail-section .pick-up-section .pick-up-content {
+        padding: 30px 40px;
+    }
+
+    /* .construction-case-detail-section .about-after-follow-section .baba {
+
+        display: none;
+    } */
+
+    .construction-case-detail-section .renovation-detail-section {
+        background-color: white;
+    }
+
+
+}
+
+@media only screen and (max-width:425px) {
+    .construction-case-detail-section .about-after-follow-section .baba {
+        width: 47%;
+        height: auto;
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width:2400px) and (min-width:1600px) {
+    .construction-case-detail-section .about-after-follow-section .baba {
+        width: 18%;
+    }
+}
+
+@media screen and (max-width:1600px) and (min-width:1200px) {
+
+
+    .construction-case-detail-section .about-after-follow-section .baba {
+        position: absolute;
+        right: 3%;
+        bottom: 30px;
+        width: 22%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+}

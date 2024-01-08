@@ -1,0 +1,445 @@
+.main-renovation-banner {
+
+    background-image: url(../images/QuoteForm/banneroverlay.png), linear-gradient(to right, rgba(255, 255, 255, .4), rgba(255, 255, 255, .4)), url(../images/KitchenRenovation/Group\ 1069.png);
+    height: 390px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+
+}
+
+/* .main-renovation-banner::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, .4);
+    z-index: 2;
+} */
+
+.renovation-banner-title {
+    height: 390px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.renovation-banner-title h1 {
+    font-size: 59px;
+    color: var(--nero);
+    font-weight: bold;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.about-kitchen-title {
+    margin-bottom: 70px;
+}
+
+.about-kitchen-title h3 {
+    font-size: 30px;
+    color: var(--nero);
+    font-weight: 600;
+}
+
+.about-kitchen-detail p {
+    font-size: 14px;
+    color: var(--nero);
+    /* line-height: 30px; */
+    line-height: 2;
+    font-weight: 400;
+}
+
+.about-kitchen {
+    padding: 86px 0px 68px 0px;
+}
+
+.section-kitchen-layout {
+    background-image: url(../images/KitchenRenovation/Mask\ Group\ 39.png);
+    background-position-x: right;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-color: var(--ivory);
+    height: auto;
+    padding: 86px 0px 96px 0px;
+}
+
+.kitchen-layout-title {
+    width: 100%;
+    max-width: 510PX;
+    margin: 0px auto 65px auto;
+}
+
+.kitchen-layout-title h3 {
+    font-size: 30PX;
+    color: var(--nero);
+    font-weight: 600;
+}
+
+.kitchen-layout-card-title {
+    font-size: 21px;
+    color: var(--nero);
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+.text-left-sub-title{
+font-size: 15px;
+margin: 15px 0px 16px;
+}
+.question-card-title{
+    font-size: 17px;
+    color: var(--nero);
+    font-weight: 600;
+    margin: 15px 0px 18px;
+    text-align: center;
+}
+
+.kitchen-layout-card-text {
+    font-size: 14px;
+    color: var(--nero);
+    font-weight: 400;
+    text-align: left;
+}
+
+.kitchen-layout-card-body {
+    padding: 15px 40px 50px 30px;
+}
+
+
+.section-kitchen-questions {
+    background-image: url(../images/KitchenRenovation/Mask\ Group\ 39.png);
+    background-position-x: right;
+    background-repeat: no-repeat;
+    color: var(--white);
+    padding: 86px 0px 96px 0px;
+    /* padding: 0px 0px 85px 0px; */
+}
+
+.section-kitchen-use {
+    background-image: url(../images/KitchenRenovation/Mask\ Group\ 39.png);
+    background-position-x: right;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-color: var(--ivory);
+    padding: 86px 0px 96px 0px;
+}
+
+.kitchen-question-sub-title {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0px auto 65px auto;
+    line-height: 30px;
+}
+
+.kitchen-question-sub-title p {
+    font-size: 14px;
+    color: var(--nero);
+    text-align: left;
+    font-weight: 400;
+}
+
+.kitchen-idea-image {
+    width: 100%;
+    max-width: 1100px;
+    height: auto;
+    margin: 0px auto;
+}
+
+.kitchen-idea-image img {
+    width: 100%;
+    height: auto;
+}
+
+.section-kitchen-latest-information {
+    color: var(--white);
+    padding: 86px 0px 96px 0px;
+}
+
+.latest-information-title {
+    font-size: 21px;
+    color: var(--nero);
+    text-align: center;
+    font-weight: 600;
+}
+
+.kitchen-layout-sub-title {
+    margin-bottom: 51px;
+}
+
+.kitchen-layout-sub-title p {
+    color: var(--nero);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.latest-card-sub-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    color: var(--nero);
+    margin-bottom: 18px;
+    min-height: 24px;
+    /* display: inline-block; */
+}
+
+.group-1075 {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.pick-up-section {
+    background-image: url(../images/KitchenRenovation/Mask\ Group\ 37.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+
+.section-construction-period {
+    background-image: url(../images/KitchenRenovation/Mask\ Group\ 39.png);
+    width: 100%;
+    background-color: var(--bisque);
+    background-position: top;
+    padding: 82px 0px 92px 0px;
+}
+
+.section-problem-solve {
+    background-image: url(../images/KitchenRenovation/Mask\ Group\ 39.png);
+    width: 100%;
+    background-color: var(--ivory);
+    background-position: top;
+    padding: 82px 0px 92px 0px;
+}
+
+.problem-solve-sub-title p {
+    font-size: 14px;
+    color: var(--nero);
+    font-weight: 400;
+    margin-bottom: 65px;
+}
+
+.problem-solve-image img {
+    /* width: 90%; */
+    width: 100%;
+    height: auto;
+    background-position: center;
+}
+
+.mbil-promblem-img {
+    display: none;
+    height: auto;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.section-manufacturers-handling {
+    padding: 82px 0px 92px 0px;
+    background: var(--white);
+}
+
+.customer-voice-section {
+    min-height: 700px;
+    background-color: var(--ivory);
+    padding: 50px 0;
+}
+
+.customer-voice-section .pick-up-content {
+    padding: 10px 40px;
+    border: 15px solid var(--bisque);
+    background-color: var(--white);
+    min-height: 294px;
+}
+
+.customer-voice-section .pick-up-content h3 {
+    font-size: 20px;
+    color: var(--persimmon);
+    padding: 30px 0 20px 0;
+    font-weight: 700;
+}
+
+.customer-voice-section h2 {
+    padding: 50px 0;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.pick-up-content p {
+    font-size: 1.4rem;
+    color: var(--nero);
+    line-height: 2;
+    font-weight: 400;
+}
+
+.card {
+    border: none;
+}
+
+/* .company-name {
+    padding: 34px 0px 0px 78px;
+} */
+
+@media only screen and (max-width:768px) {
+    .problem-solve-image img {
+        display: none;
+    }
+
+    .problem-solve-image .mbil-promblem-img {
+        display: block;
+    }
+
+    .main-renovation-banner,
+    .renovation-banner-title {
+        height: 119px;
+    }
+
+    .renovation-banner-title h1 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .about-kitchen-title h3,
+    .kitchen-layout-title h3 {
+        font-size: 20px;
+    }
+
+    .about-kitchen-title {
+        margin-bottom: 23px;
+    }
+
+    .kitchen-layout-card-body {
+        padding: 7px 0px 5px 0px;
+    }
+
+    .kitchen-layout-card-title {
+        font-size: 19px;
+        width: 100%;
+        font-weight: 600;
+        margin-bottom: 12px;
+        /* max-width: 122px; */
+    }
+    .text-left-sub-title{
+        font-size: 13px;
+        margin: 13px 0px 17px;
+
+    }
+
+    .latest-information-title {
+
+        text-align: center;
+    }
+
+    .section-kitchen-latest-information {
+        padding: 31px 38px;
+    }
+
+    .pick-up-section .pick-up-content {
+        padding: 0px 35px;
+    }
+
+    .pick-up-section .pick-up-content h3 {
+        font-size: 2.5rem;
+        padding: 35px 0 12px 0;
+    }
+
+    .kitchen-layout-card {
+        flex-direction: row;
+    }
+
+    .kitchen-layout-card-top {
+        width: 46%;
+        height: 140px;
+    }
+
+    .ktchn-lay-mbl-card-body {
+        padding: 13px 23px 5px 19px;
+    }
+
+    .section-kitchen-questions {
+        padding: 24px 0px 96px 0px;
+    }
+
+    .kitchen-layout-title {
+        margin-bottom: 24px;
+    }
+
+    .section-kitchen-use,
+    .section-construction-period,
+    .section-problem-solve,
+    .section-manufacturers-handling {
+        padding: 29px 0px 96px 0px;
+    }
+    .section-problem-solve{
+        padding-bottom: 0;
+    }
+
+    .customer-voice-section {
+        padding: 31px 0px 50px 0px;
+    }
+
+    .customer-voice-section h2 {
+        padding: 0px;
+    }
+
+    .section-contact-us {
+        padding: 45px 0px;
+    }
+
+
+
+    .company-name h4,
+    h3 {
+        text-align: center;
+    }
+
+    .company-name h3 {
+        text-align: center;
+    }
+
+    /* .company-name {
+        padding: 0px 0px 0px 78px;
+    } */
+
+
+
+    .company-detail {
+        margin: 30px 0px 50px;
+    }
+
+    .section-about-company {
+        padding: 0px;
+    }
+
+    .footer-uppar {
+        display: none;
+    }
+
+    .footer {
+        min-height: 0px;
+    }
+
+    .about-kitchen {
+        padding: 31px 0px 68px 0px;
+    }
+    .kitchen-layout-card-text{
+        margin-top: 10px;
+    }
+    .question-card-title{
+        font-size: 17px;
+        max-width: 120px;
+        text-align: left;
+        margin: 7px 0px 5px ;
+    }
+}

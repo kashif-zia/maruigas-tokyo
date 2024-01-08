@@ -1,0 +1,246 @@
+header {
+    position: relative;
+}
+
+.feature-section {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+}
+
+
+
+.feature-page .feature-section {
+    /* min-height:  417px; */
+    padding: 80px 0;
+    background-color: var(--corn-flower-blue);
+    display: flex;
+    align-items: center;
+    transition: all .5s;
+}
+
+.header .lower-nav .nav-item>.feature-section {
+    display: none;
+}
+
+/* .header .lower-nav .nav-item:not(.double-items):hover>.feature-section {
+    display: flex;
+}
+.header .lower-nav .nav-item .double-items-nav-link:hover+.feature-section {
+    display: flex;
+} */
+
+
+.feature-page h2 {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.feature-page .feature-section img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.feature-page .feature-section .feature-box {
+    width: 100%;
+    min-height: 280px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--dim-gray);
+}
+
+.feature-page .feature-section .row {
+    height: 100%;
+}
+
+.feature-page .left-img-section {
+    display: flex;
+    height: 100%;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.feature-page .feature-section .feature-small-box {
+    height: 130px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    background-color: var(--white);
+}
+
+.feature-page .feature-section .feature-lg-box {
+    height: 280px;
+}
+
+.feature-page .feature-section .feature-small-box h2 {
+    color: black;
+}
+
+.feature-page .feature-section .feature-small-box .img {
+    width: 100%;
+    background: var(--silver);
+    height: 80%;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.feature-page .feature-section .feature-small-box h2 {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    padding: 30px 0;
+}
+
+.feature-page .feature-section .icon {
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background: #555665;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.feature-page .feature-section .icon i {
+    font-size: 13px;
+    color: white;
+}
+
+.feature-page .mobile-sections {
+    min-height: 661px;
+    background-color: var(--corn-flower-blue);
+    padding: 20px 0;
+}
+
+.feature-page .mobile-sections .toggle-section-dropdown {
+    background-size: cover;
+    width: 100%;
+    height: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #707070;
+}
+
+.feature-page .mobile-sections .dropdown-menu {
+    width: 100%;
+    padding: 20px;
+    position: relative !important;
+    margin: 10px 0;
+
+}
+
+.feature-page .mobile-sections .dropdown-menu.show {
+    transform: translate3d(0px, 0px, 0px) !important;
+}
+
+.dropdown-section:not(:last-child) {
+
+    border-bottom: 1px solid black;
+}
+
+.dropdown-section {
+    padding: 20px 0 10px 0;
+}
+
+.feature-page .mobile-sections .dropdown-menu h2 {
+    color: #000000;
+}
+
+.feature-page .mobile-sections .dropdown-menu h3 {
+    color: #000000;
+    font-size: 1.7rem;
+    display: flex;
+
+}
+
+.feature-page .dropdown-menu .icon {
+    display: inline-block;
+    width: 21px;
+    height: 20px;
+    background: #555665;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.feature-page .dropdown-menu .icon i {
+    font-size: 13px;
+    color: white;
+}
+
+.mobile-sections,
+.feature-page .contact {
+    display: none;
+}
+
+.desktop-sections {
+    display: block;
+}
+
+.feature-page .contact {
+    height: 78px;
+    background-color: var(--carrot-orange);
+}
+
+.feature-page .contact .upper-right-section-orange {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.feature-page .contact span {
+    font-size: 2.2rem;
+    color: var(--white);
+}
+
+.phone-no {
+    border-left: 1px solid white;
+}
+
+@media (max-width:700px) {
+    html {
+        font-size: 55%;
+    }
+
+    .mobile-sections,
+    .feature-page .contact {
+        display: block;
+    }
+
+    .desktop-sections {
+        display: none;
+    }
+}
+
+@media (max-width:500px) {
+    html {
+        font-size: 46%;
+    }
+}
+
+.mobile-menu{
+    position: absolute;
+    left: 0;
+    right: 0;
+    display: none;
+}
+.mobile-menu.open{
+    display: block;
+}

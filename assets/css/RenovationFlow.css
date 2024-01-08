@@ -1,0 +1,199 @@
+.renovation-flow-section {
+    min-height: 3399px;
+    background: transparent url('../images/RenovationFlow/bg-mask.svg') 100% 0% no-repeat;
+    background-color: var(--ivory);
+    padding: 100px 0;
+}
+
+.renovation-flow-section .box {
+    background: var(--white);
+    min-height: 280px;
+    display: flex;
+    margin: 60px 0;
+}
+
+
+.renovation-flow-section .box:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.renovation-flow-section .box .left {
+    width: 50%;
+    min-height: 280px;
+}
+
+.renovation-flow-section .box .left img {
+    width: 100%;
+}
+
+.renovation-flow-section .box .right {
+    width: 50%;
+    min-height: 280px;
+    display: flex;
+    align-items: center;
+}
+
+.renovation-flow-section .box .right .content {
+    padding-left: 100px;
+}
+
+.renovation-flow-section .box .right .content .step-1 span {
+    color: var(--carrot-orange);
+    font-size: 28px;
+}
+
+.renovation-flow-section .box .right .content .step-1 span.one {
+    font-size: 70px;
+}
+
+
+.renovation-flow-section .box .right .content h3 {
+    font-size: 30px;
+}
+
+.renovation-flow-section .box .right .content h3 .tag {
+    margin: 10px 0;
+    background-color: var(--persimmon);
+    width: 77px;
+    height: 31px;
+    color: var(--white);
+    padding: 4px 15px;
+    font-size: 21px;
+    border-radius: 5px;
+}
+
+.renovation-flow-section .box .right .content .middle-text {
+    font-size: 19px;
+}
+
+.renovation-flow-section .box .content li {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.renovation-flow-section .box .content li .text {
+    font-size: 16px;
+    width: 100%;
+}
+
+.renovation-flow-section .box .content .question-box {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: var(--carrot-orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+
+.renovation-flow-section .box .content .question-box i {
+    font-size: 2rem;
+    color: var(--white);
+
+}
+
+.renovation-flow-section .box .content {
+    width: 100%;
+}
+
+
+.renovation-flow-section img {
+    width: 100%;
+    height: 100%;
+}
+
+@media (max-width:1200px) {
+    .renovation-flow-section .box .right .content {
+        padding: 50px;
+    }
+}
+
+@media (max-width:800px) {
+
+    .renovation-flow-section .box .left,
+    .renovation-flow-section .box .right {
+        width: 100%;
+    }
+
+    .renovation-flow-section .box,
+    .renovation-flow-section .box:nth-child(even) {
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+
+    .renovation-flow-section .box img {
+        width: 100%;
+    }
+
+    .renovation-flow-section .box .right .content {
+        padding: 0 20px;
+    }
+}
+
+.renovation-flow-section .box .right .content .middle-text p.desktop-text{
+    display: block;
+}
+.renovation-flow-section .box .right .content .middle-text p.mobile-text{
+    display: none;
+}
+
+@media (max-width:700px) {
+    html {
+        font-size: 55.5%;
+    }
+
+    .renovation-flow-section .box .right .content h3 {
+        font-size: 16px;
+    }
+
+    .renovation-flow-section .box .right .content .step-1 span {
+        font-size: 16px;
+    }
+
+    .renovation-flow-section .box .right .content .step-1 span.one {
+        font-size: 41px;
+    }
+
+    .renovation-flow-section .box .right .content h3 .tag {
+        width: 45px;
+        height: 17px;
+        font-size: 12px;
+    }
+
+    .renovation-flow-section .box .right .content .middle-text {
+        font-size: 16px;
+    }
+
+    .renovation-flow-section .box .content .question-box {
+        width: 18px;
+        height: 17px;
+    }
+
+    .renovation-flow-section .box .content .question-box i {
+        font-size: 12px;
+    }
+
+    .renovation-flow-section {
+        padding: 50px 0;
+    }
+    .renovation-flow-section .box .right .content .middle-text p.desktop-text{
+        display: none;
+    }
+    .renovation-flow-section .box .right .content .middle-text p.mobile-text{
+        display: block;
+    }
+}
+
+@media (max-width:450px) {
+    html {
+        font-size: 53.5%;
+    }
+
+    .oven-maker-about p {
+        text-align: left;
+    }
+}

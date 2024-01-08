@@ -1,0 +1,419 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0px;
+}
+
+.section-introduce {
+    background-image: url(../assets/images/introduce/MaskGroup226.png);
+    width: 100%;
+    height: 390px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.introduce-content {
+    /* background-image: url(/assets/images/introduce/maskGroup41.png); */
+    width: 100%;
+    height: 390px;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.intro-title {
+    height: 390px;
+}
+
+.intro-title h1 {
+    font-size: 59px;
+    color: var(--nero);
+    font-weight: bold;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 160px;
+}
+.custom-container{
+    max-width: 1600px;
+}
+.section-overn-maker {
+    background-color: #FFFFFF;
+    padding: 71px 0px;
+}
+
+
+
+.oven-maker-title p {
+    color: #141414;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 0px;
+
+}
+
+.oven-maker-about p {
+    color: #141414;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+
+.section-food-service {
+    background-image: url('../images/introduce/introduce-mask-bg.png');
+    width: 100%;
+    background-position: top right;
+    background-repeat: repeat-y;
+
+    background-color: #FFFEED;
+}
+.servicetitle{
+    margin-top: 20px;
+}
+
+.section-food-service{
+    padding-top: 96px;
+    padding-bottom: 40px ;
+}
+.service-right-outer-div {
+    background: #FFFFFF;
+    padding: 59px 80px 90px 106px;
+    margin-top: 80px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+    min-height: 449px;
+}
+.service-left-outer-div {
+    background: #FFFFFF;
+    padding: 59px 100px 90px 77px;
+    z-index: -1;
+    margin-left: 60px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.quality-right-img img{
+    margin-left: -60px;
+}
+.quality-left-img img{
+    margin-left: 60px;
+}
+.quality-left-img img,
+.quality-right-img img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.contact-us-title h2 {
+    font-size: 18px;
+    color: #141414;
+    font-weight: bold;
+}
+
+.contact-us-title p {
+    font-size: 30px;
+    color: #141414;
+    font-weight: bold;
+}
+
+.contact-number h3 {
+    font-size: 49px;
+    letter-spacing: 0.98px;
+    color: #F75914;
+    opacity: 1;
+    font-weight: 500;
+}
+
+.contact-number-sub-title {
+    color: #1A1A1A;
+    font-size: 15px;
+}
+
+.inquiry-col {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #F75914;
+    border-radius: 11px;
+    /* width: 280px; */
+    height: 115px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.f-22-orng {
+    color: #F75914;
+    font-size: 22px;
+
+}
+
+.inquiry-sub-title {
+    margin-top: 10px;
+}
+
+.inquiry-sub-title h4 {
+    font-size: 14px;
+    text-align: left;
+    letter-spacing: 0px;
+    opacity: 1;
+
+}
+
+.section-contact-us {
+    background-color: #FFFFFF;
+    padding: 100px 0px;
+}
+
+/* .section-about-company {
+    background-color: #E3E3E3;
+    padding: 0px 0px 124px 0px;
+    position: relative;
+} */
+
+/* .about-company-left-content {
+    padding: 37px 50px 0px 78px;
+} */
+
+/* .company-image img {
+    margin-top: 37px;
+    height: 490px;
+
+} */
+
+/* .about-company-content {
+    height: 460px;
+    background-color: #616272;
+    padding: 15px;
+} */
+
+/* .company-name h4 {
+    font-size: 18px;
+    color: #FFFFFF;
+    line-height: 26px;
+    text-align: left;
+}
+
+.company-name h3 {
+    font-size: 30px;
+    color: #FFFFFF;
+    line-height: 26px;
+    text-align: left;
+    font-weight: bold;
+    margin: 15px 0px;
+}
+
+.company-detail p {
+    font-size: 14px;
+    color: #FFFFFF;
+} */
+
+/* .company-detail-btn {
+    border: 1px solid #FFFFFF;
+    width: 100%;
+    height: 40px;
+    color: #FFFFFF;
+    background-color: transparent;
+} */
+
+.company-person img {
+    position: absolute;
+    right: 0px;
+    right: 43px;
+    top: -101px;
+}
+
+.servicenumber h2 {
+    font-size: 70px;
+    color: #F49122;
+}
+
+.intro-col-left {
+    z-index: 3;
+
+}
+
+.intro-rigth-left {
+    z-index: 0;
+    width: 746px;
+    max-width: 100%;
+    margin-left: -65px;
+}
+
+.servicetitle p {
+    font-size: 30px;
+    color: #141414;
+    line-height: 40px;
+    font-weight: 600;
+}
+
+.servicedetail p {
+    width: 100%;
+    line-height: 1.5;
+   margin-top: 20px;
+    font-size: 14px;
+}
+.introduce-mbl-p{
+    display: none;
+}
+.introduce-desktop-p{
+display: block;
+}
+@media screen and (max-width: 1350px) and (min-width: 1049px) {
+    
+    .service-right-outer-div{
+        padding: 59px 45px 59px 80px;
+        margin-top: 40px;
+        margin-bottom   : 40px;   
+        margin-right: 20px; 
+    }
+    .quality-left-img img{
+        margin-left: 20px;
+    }
+    .quality-right-img img {
+        margin-left: -20px;
+    }
+    .service-left-outer-div{
+        padding: 59px 45px 59px 80px;
+        margin-top: 40px;
+        margin-bottom   : 40px;   
+        margin-left: 20px;
+    }
+    .servicetitle p{
+        font-size: 18px;
+    }
+    .servicedetail p{
+        font-size: 14px;
+    }
+    .servicenumber h2{
+        font-size: 50px;
+    }
+}
+@media screen and (max-width: 1050px) and (min-width: 769px) {
+    .quality-left-img img, .quality-right-img img{
+        object-fit: fill;
+        height: 400px;
+    }
+    .servicetitle p{
+        font-size: 24px;
+    }
+    .servicetitle p {
+        font-size: 20px;
+    }   
+    .service-left-outer-div{
+        padding: 30px 50px 30px 25px;
+        margin-left: 20px;
+        margin-top: 40px;
+    
+    }
+    .service-right-outer-div {
+        padding: 30px 30px 30px 50px;
+        margin-right: 20px;
+        margin-top: 40px;
+    }
+    .quality-right-img img {
+        margin-left: -10px;
+    }
+    .quality-left-img img {
+        margin-left: 20px;
+    }
+}
+@media only screen and (max-width:768px) {
+    .introduce-mbl-p{
+        display: block;
+    }
+    .introduce-desktop-p{
+    display: none;
+    }
+    .quality-left-img img, .quality-right-img img{
+        object-fit: fill;
+        height: 100%;
+    }
+    .oven-maker-title {
+        margin-bottom: 30px;
+    }
+
+    .intro-title, .introduce-content{
+        height: 119px;
+    }
+    .servicenumber h2{
+        font-size: 38px;
+    }
+    .servicetitle{
+        margin: 0px;
+    }
+    .servicedetail p{
+        margin-top: 11px    ;
+    }
+    .quality-right-img img{
+        margin-left: 0px;
+       
+    }
+
+    .intro-title h1 {
+        font-size: 25px;
+        padding: 34px 0px;
+    }
+
+    .section-introduce {
+        width: 100%;
+        height: 119px;
+    }
+
+   
+
+    .oven-maker-title p {
+        font-size: 20px;
+    }
+
+    .section-overn-maker {
+        padding: 30px 15px 50px;
+    }
+
+    .section-food-service {
+        padding: 29px 15px 40px 15px;
+        background-image: inherit;
+    }
+
+    .service-rigth-content {
+        margin-top: 0px;
+    }
+
+    .reverse-row {
+        flex-direction: column-reverse;
+    }
+    .intro-right-left{
+        margin-bottom: 47px;
+    }
+    .service-right-outer-div , .service-left-outer-div{
+        padding: 25px 33px;
+        width: 100%;
+        height: auto;
+        min-height: 100%;
+        margin: 0px;
+    }
+   
+    .quality-left-img img{
+        margin: 0px;
+        
+    }
+    
+
+    .servicetitle p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    /* .about-company-left-content {
+        padding: 0px;
+    } */
+
+}
+@media only screen and (max-width:500px) {
+.oven-maker-title p {
+    max-width: 300px;
+    margin: auto;
+}
+}

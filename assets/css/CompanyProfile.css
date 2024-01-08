@@ -1,0 +1,190 @@
+
+
+.company-profile-page .section-introduce::before
+{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.company-profile-page .tabs-section {
+    background-color: var(--light-grey);
+}
+
+.company-profile-page .tabs-section .nav-item {
+    width: 20%;
+    padding: 10px 0;
+
+}
+.company-profile-page .tabs-section .nav-item:has(.nav-link.active)
+{
+    background-color: var(--carrot-orange);
+}
+
+.company-profile-page .tabs-section .nav-link {
+    width: 100%;
+    height: 65px;
+    border-right: 1px solid white;
+    font-size: 22px;
+}
+
+.company-profile-page .tabs-section .nav-link.active {
+    color: var(--white);
+    /* border-right: none; */
+    background-color: inherit;
+    /* background-color: var(--carrot-orange); */
+}
+
+
+
+.company-profile-page .staff-introduction-tab-content h2 {
+    padding: 50px 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+.company-profile-page .staff-info-section h2{
+    /* color: var(--carrot-orange); */
+    color: #F98D00;
+}
+ 
+.company-profile-page .staff-introduction-tab-content img {
+    width: 100%;
+}
+
+.company-profile-page .staff-introduction-tab-content .staff-info-section {
+    min-height: 628px;
+    padding: 30px 0 80px 0;
+}
+
+.company-profile-page .staff-introduction-tab-content .staff-info-section:nth-child(even) {
+    background-color: var(--ivory);
+}
+
+.company-profile-page .staff-introduction-tab-content .staff-info-section:nth-child(odd) {
+    background-color: var(--white);
+}
+
+.company-profile-page .staff-introduction-tab-content .staf-content {
+    /* background-color: var(--pumpkin); */
+    background-color: #F98D00;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.company-profile-page .staff-introduction-tab-content .staff-info {
+    min-height: 70px;
+    text-align: center;
+    color: var(--white);
+}
+
+.company-profile-page .staff-introduction-tab-content .staff-info h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.company-profile-page .staff-introduction-tab-content .staff-info h4 {
+    font-size: 14px;
+}
+
+
+/* Company Intro */
+.company-profile-page .company-profile-intro-content h2 {
+    padding: 40px 0 30px 0;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.company-profile-page .company-profile-intro-content .oven-maker-about {
+    display: flex;
+    justify-content: center;
+}
+
+.company-profile-page .company-profile-intro-content .oven-maker-about p {
+    line-height: 2.5;
+    max-width: 800px;
+    text-align: start;
+    font-size: 1.4rem;
+}
+
+.company-profile-page .company-profile-intro-content .company-overview {
+    background-color: var(--ivory);
+    min-height: 3900px;
+}
+
+.company-profile-page .company-profile-intro-content .overview-section .col-3,
+.company-profile-page .company-profile-intro-content .overview-section .col-9 {
+    min-height: 60px;
+    margin: 5px 0 !important;
+
+}
+
+.company-profile-page .company-profile-intro-content .overview-section .left,
+.company-profile-page .company-profile-intro-content .overview-section .right {
+    width: 100%;
+    height: 100%;
+    padding: 20px 40px 10px 40px;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+.company-profile-page .company-profile-intro-content .overview-section .col-3 {
+    background-color: #FEE5C6;
+
+}
+
+.company-profile-page .company-profile-intro-content .overview-section .col-9 {
+    background-color: var(--white);
+}
+
+/* Licensing Section */
+
+.company-profile-page .licensing-content-section .wrapper {
+    padding: 50px 0;
+    background-color: var(--white);
+    min-height: 191px;
+}
+
+.company-profile-page .licensing-content-section .inner-wrapper {
+    max-width: 700px;
+    margin: auto;
+    padding: 0 50px;
+}
+
+.company-profile-page .licensing-content-section .wrapper p {
+    font-size: 1.4rem;
+    padding: 10px 0;
+    text-align: start;
+}
+
+@media (max-width:400px) {
+    html {
+        font-size: 55%;
+    }
+}
+
+
+@media (max-width:600px) {
+    .company-profile-page .tabs-section .nav-link {
+        font-size: 10px;
+        height: 48px;
+    }
+    .company-profile-page .tabs-section .nav-item{
+        padding: 0;
+    }
+
+    .company-profile-page .company-profile-intro-content .overview-section .left,
+    .company-profile-page .company-profile-intro-content .overview-section .right {
+        padding: 20px 10px 10px 10px;
+        font-size: 1.3rem;
+        font-weight: normal;
+    }
+    .company-profile-page .staff-introduction-tab-content h2{
+        font-size: 20px;
+    }
+    .company-profile-page .staff-introduction-tab-content .staff-info-section{
+        padding: 10px 0 50px 0;
+    }
+    .company-profile-page .staff-info-section h2
+    {
+        padding: 50px 0 30px 0;
+    }
+}

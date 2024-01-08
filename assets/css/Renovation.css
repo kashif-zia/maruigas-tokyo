@@ -1,0 +1,107 @@
+.renovation-section {
+    padding: 50px 0 150px 0;
+}
+
+.renovation-section h2 {
+    padding: 60px 0;
+    text-align: center;
+    font-size: 30px;
+}
+
+.renovation-section h3 {
+    text-align: center;
+    font-size: 27px;
+    padding: 20px 0;
+}
+
+.renovation-section .renovation-box {
+    background-color: var(--white-smoke);
+    border-radius: 8px;
+}
+
+.renovation-section img {
+    width: 100%;
+    height: 160px;
+    /* border-radius: 5px; */
+    border-radius: 8px 8px 0 0;
+
+}
+
+.renovation-section .renovation-box-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.renovation-section .renovation-box-content p {
+    padding: 30px 10px;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    /* or inline-block */
+    /* max-height: 100px; */
+    min-height: 170px;
+    max-width: 310px;
+    width: 100%;
+    line-height: 2;
+}
+
+.renovation-section .renovation-box-content button {
+    width: 270px;
+    height: 40px;
+    border: 1px solid #555665;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #555665;
+    position: relative;
+}
+
+.renovation-section .renovation-box-content i {
+    position: absolute;
+    right: 20px;
+}
+
+.renovation-section .renovation-box-content p.desktop-text {
+    display: block;
+}
+
+.renovation-section .renovation-box-content p.mobile-text {
+    display: none;
+}
+
+@media (max-width:500px) {
+    html {
+        font-size: 57%;
+    }
+
+    .renovation-section h2 {
+        font-size: 20px;
+        padding: 20px 0;
+    }
+
+    .renovation-section h3 {
+        font-size: 18px;
+    }
+
+    .renovation-section .renovation-box-content p {
+        font-size: 14px;
+        padding: 30px 10px 10px 10px;
+        min-height: 130px;
+    }
+
+    .renovation-section .renovation-box-content p.desktop-text {
+        display: none;
+    }
+
+    .renovation-section .renovation-box-content p.mobile-text {
+        display: block;
+    }
+
+    .renovation-section {
+        padding: 50px 0;
+    }
+}

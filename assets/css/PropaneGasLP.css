@@ -1,0 +1,541 @@
+/* Propane Gas */
+
+
+
+/* Propane Gas */
+
+.usage-payment-method-page {}
+
+.usage-payment-method-page .tabs-section {
+    background-color: var(--light-grey);
+}
+
+.usage-payment-method-page .tabs-section .nav-item {
+    width: 33.2%;
+    padding: 10px 0;
+}
+
+.usage-payment-method-page .tabs-section .nav-item:not(:last-child) .nav-link {
+    border-right: 1px solid white;
+}
+
+.usage-payment-method-page .tabs-section .nav-link {
+    width: 100%;
+    height: 65px;
+    font-size: 22px;
+    font-weight: normal;
+    color: #3C3C3C;
+}
+
+.usage-payment-method-page .tabs-section .nav-item:has(.nav-link.active) {
+    background-color: var(--carrot-orange);
+}
+
+.usage-payment-method-page .tabs-section .nav-link.active {
+    color: var(--white);
+    border-right: none;
+    background-color: var(--carrot-orange);
+}
+
+.usage-payment-method-page .tab-pane .usage-payment-method-content h2 {
+    padding: 60px 0;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.usage-payment-method-page .tab-pane .usage-payment-method-content .intro {
+    padding: 50px 0;
+    background-color: var(--white);
+}
+
+/* usage-payment-method-content */
+
+.usage-payment-method-content {}
+
+.usage-payment-method-content h2 {
+    padding: 60px 0;
+    text-align: center;
+    font-size: 3rem;
+}
+
+.usage-payment-method-content .intro {
+    padding: 50px 0;
+}
+
+.usage-payment-method-content .content {
+    min-height: 1509px;
+    background-color: var(--ivory);
+}
+
+.usage-payment-method-content .content p {
+    text-align: center;
+    font-size: 1.4rem;
+    line-height: 2;
+}
+
+.usage-payment-method-content .calculated-btn-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    color: var(--nobel);
+}
+
+.usage-payment-method-content .calculated-btn-section button {
+    width: 186px;
+    height: 83px;
+    border: none;
+    outline: none;
+    font-size: 1.6rem
+}
+
+.usage-payment-method-content .box-wrapper {
+    margin: 5px 0;
+}
+
+.usage-payment-method-content .box-wrapper .box {
+    background-color: #D8D4D4;
+    height: 80px;
+    /* padding: 50px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+}
+
+.usage-payment-method-content .calculated-btn-section span {
+    padding: 20px;
+    font-size: 2rem;
+}
+
+.usage-payment-method-content .calculated-btn-section button.bg-btn {
+    background: var(--carrot-orange);
+    color: white;
+}
+
+.usage-payment-method-content .desktop-boxes {
+    display: block;
+    margin-bottom: 80px;
+}
+
+.usage-payment-method-content .mobile-boxes {
+    display: none;
+    margin-bottom: 80px;
+}
+
+.usage-payment-method-content .calculated-section {
+    background-color: #FFF08E;
+    padding: 30px 0;
+    margin-bottom: 20px;
+}
+
+.usage-payment-method-content .calculated-section .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+}
+
+.usage-payment-method-content .calculated-section .wrapper>div {}
+
+.usage-payment-method-content .calculated-section span {
+    font-size: 2rem;
+    color: var(--carrot-orange);
+}
+
+.usage-payment-method-content ul {
+    padding: 40px 10px;
+}
+
+.usage-payment-method-content ul li {
+    font-size: 1.4rem;
+    line-height: 2;
+    list-style: circle;
+}
+
+.usage-payment-method-content .payment-method-section {
+    min-height: 1050px;
+    background-color: var(--bisque);
+}
+
+.usage-payment-method-content .payment-method-box-section {
+    margin: 100px 0 0 0;
+}
+
+.usage-payment-method-content .payment-method-box-section .payment-method-box {
+    padding: 30px 30px 0 50px;
+
+    background-color: var(--white);
+    border-radius: 10px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    min-height: 400px;
+}
+
+.usage-payment-method-content .payment-method-box-section .payment-method-box h1 {
+    color: var(--Persimmon);
+}
+
+/* usage-payment-method-content */
+
+.desktop {
+    display: block;
+}
+
+.mobile {
+    display: none;
+}
+
+@media (max-width:600px) {
+    html {
+        font-size: 55%;
+    }
+
+    .usage-payment-method-content .desktop-boxes {
+        display: none;
+    }
+
+    .usage-payment-method-content .mobile-boxes {
+        display: block;
+    }
+
+    .usage-payment-method-content .box-wrapper .box {
+        height: 80px;
+
+    }
+
+    .desktop {
+        display: none;
+    }
+
+    .mobile {
+        display: block;
+    }
+
+    .usage-payment-method-content .calculated-section .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 10px;
+    }
+}
+
+@media (max-width:425px) {
+    .pills-about-lp-gas-content .pills-reverse-row {
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width:400px) {
+    html {
+        font-size: 53%;
+    }
+
+    .usage-payment-method-page .tabs-section .nav-link {
+        font-size: 10px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/*  */
+
+.pills-about-lp-gas-content .custom-container {
+    max-width: 1600px;
+}
+
+.pills-about-lp-gas-content .section-food-service {
+    background-image: url('../images/introduce/introduce-mask-bg.png');
+    width: 100%;
+    background-position: top right;
+    background-repeat: repeat-y;
+
+    background-color: #FFFEED;
+}
+
+.pills-about-lp-gas-content .servicetitle {
+    margin-top: 20px;
+}
+
+.pills-about-lp-gas-content .section-food-service {
+    padding-top: 96px;
+    padding-bottom: 150px;
+}
+
+.pills-about-lp-gas-content .service-right-outer-div {
+    background: #FFFFFF;
+    padding: 59px 80px 90px 106px;
+    margin-top: 80px;
+    margin-right: 80px;
+    margin-bottom: 50px;
+    min-height: 449px;
+}
+
+.pills-about-lp-gas-content .service-left-outer-div {
+    background: #FFFFFF;
+    padding: 59px 100px 90px 77px;
+    z-index: -1;
+    margin-left: 60px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.pills-about-lp-gas-content .quality-right-img img {
+    margin-left: -60px;
+}
+
+.pills-about-lp-gas-content .quality-left-img img {
+    margin-left: 60px;
+}
+
+.pills-about-lp-gas-content .quality-left-img img,
+.pills-about-lp-gas-content .quality-right-img img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+
+.pills-about-lp-gas-content .servicenumber h2 {
+    font-size: 70px;
+    color: #F49122;
+}
+
+.pills-about-lp-gas-content .intro-col-left {
+    z-index: 3;
+
+}
+
+.pills-about-lp-gas-content .intro-rigth-left {
+    z-index: 0;
+    width: 746px;
+    max-width: 100%;
+    margin-left: -65px;
+}
+
+.pills-about-lp-gas-content .servicetitle p {
+    font-size: 26px;
+    color: #141414;
+    line-height: 40px;
+    font-weight: 600;
+}
+
+.pills-about-lp-gas-content .servicedetail p {
+    width: 100%;
+    line-height: 2;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.pills-about-lp-gas-content .introduce-mbl-p {
+    display: none;
+}
+
+.pills-about-lp-gas-content .introduce-desktop-p {
+    display: block;
+}
+
+@media screen and (max-width: 1350px) and (min-width: 1049px) {
+
+    .pills-about-lp-gas-content .service-right-outer-div {
+        padding: 59px 45px 59px 80px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-right: 20px;
+    }
+
+    .pills-about-lp-gas-content .quality-left-img img {
+        margin-left: 20px;
+    }
+
+    .pills-about-lp-gas-content .quality-right-img img {
+        margin-left: -20px;
+    }
+
+    .pills-about-lp-gas-content .service-left-outer-div {
+        padding: 59px 45px 59px 80px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-left: 20px;
+    }
+
+    .pills-about-lp-gas-content .servicetitle p {
+        font-size: 18px;
+    }
+
+    .pills-about-lp-gas-content .servicedetail p {
+        font-size: 14px;
+    }
+
+    .pills-about-lp-gas-content .servicenumber h2 {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 1050px) and (min-width: 769px) {
+
+    .pills-about-lp-gas-content .quality-left-img img,
+    .pills-about-lp-gas-content .quality-right-img img {
+        object-fit: fill;
+        height: 400px;
+    }
+
+    .pills-about-lp-gas-content .servicetitle p {
+        font-size: 24px;
+    }
+
+    .pills-about-lp-gas-content .servicetitle p {
+        font-size: 20px;
+    }
+
+    .pills-about-lp-gas-content .service-left-outer-div {
+        padding: 30px 50px 30px 25px;
+        margin-left: 20px;
+        margin-top: 40px;
+
+    }
+
+    .pills-about-lp-gas-content .service-right-outer-div {
+        padding: 30px 30px 30px 50px;
+        margin-right: 20px;
+        margin-top: 40px;
+    }
+
+    .pills-about-lp-gas-content .quality-right-img img {
+        margin-left: -10px;
+    }
+
+    .pills-about-lp-gas-content .quality-left-img img {
+        margin-left: 20px;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .pills-about-lp-gas-content .introduce-mbl-p {
+        display: block;
+    }
+
+    .pills-about-lp-gas-content .introduce-desktop-p {
+        display: none;
+    }
+
+    .pills-about-lp-gas-content .quality-left-img img,
+    .pills-about-lp-gas-content .quality-right-img img {
+        object-fit: fill;
+        height: 100%;
+    }
+
+    .pills-about-lp-gas-content .oven-maker-title {
+        /* margin-bottom: 30px; */
+    }
+
+    .pills-about-lp-gas-content .intro-title,
+    .pills-about-lp-gas-content .introduce-content {
+        height: 119px;
+    }
+
+    .pills-about-lp-gas-content .servicenumber h2 {
+        font-size: 38px;
+    }
+
+    .pills-about-lp-gas-content .servicetitle {
+        margin: 0px;
+    }
+
+    .pills-about-lp-gas-content .servicedetail p {
+        margin-top: 11px;
+    }
+
+    .pills-about-lp-gas-content .quality-right-img img {
+        margin-left: 0px;
+
+    }
+
+    .pills-about-lp-gas-content .intro-title h1 {
+        font-size: 25px;
+        padding: 34px 0px;
+    }
+
+    .pills-about-lp-gas-content .section-introduce {
+        width: 100%;
+        height: 119px;
+    }
+
+
+
+    .pills-about-lp-gas-content .oven-maker-title p {
+        font-size: 20px;
+    }
+
+    .pills-about-lp-gas-content .section-overn-maker {
+        padding:0px 10px 15px 10px;
+    }
+
+    .pills-about-lp-gas-content .section-food-service {
+        padding: 29px 15px 40px 15px;
+        background-image: inherit;
+    }
+
+    .pills-about-lp-gas-content .service-rigth-content {
+        margin-top: 0px;
+    }
+
+    .pills-about-lp-gas-content .reverse-row {
+        flex-direction: column-reverse;
+    }
+
+    .pills-about-lp-gas-content .intro-right-left {
+        margin-bottom: 47px;
+    }
+
+    .pills-about-lp-gas-content .service-right-outer-div,
+    .pills-about-lp-gas-content .service-left-outer-div {
+        padding: 25px 33px;
+        width: 100%;
+        height: auto;
+        min-height: 100%;
+        margin: 0px;
+    }
+
+    .pills-about-lp-gas-content .quality-left-img img {
+        margin: 0px;
+
+    }
+
+
+    .pills-about-lp-gas-content .servicetitle p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    /* .about-company-left-content {
+        padding: 0px;
+    } */
+
+}
+
+@media (max-width: 1100px) {
+    .usage-payment-method-page .tabs-section .nav-link {
+        font-size: 18px;
+        height: 48px;
+    }
+}
+
+@media (max-width: 600px) {
+    .usage-payment-method-page .tabs-section .nav-link {
+        font-size: 10px;
+        height: 48px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
